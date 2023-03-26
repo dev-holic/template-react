@@ -7,7 +7,7 @@ module.exports = {
   devtool: mode === 'development' ? 'source-map' : undefined,
 
   entry: {
-    app: path.join(__dirname, 'src/index.tsx'),
+    index: path.join(__dirname, 'src/index.tsx'),
   },
 
   output: {
